@@ -31,10 +31,9 @@ If there aren’t any cells that can be queried directly then the locations with
 of the neighborhood of two cells are considered and based on the difference between the
 values of the 2 cells under consideration cells are either cleared or declared as bombs
 For example:
-|1  | | |
-|------------- :|:-------------:|:----------:|
-|A | B|C|
-| | 2| |
+|1| | |
+|-----|:--------:|---------:|
+|A    |B	 |C |
 1
 A B C
 2
