@@ -32,15 +32,11 @@ of the neighborhood of two cells are considered and based on the difference betw
 values of the 2 cells under consideration cells are either cleared or declared as bombs
 For example:
 
-|1| | |
+|| | 1|
 |-----|:--------:|---------:|
 |A   |B	 |C    |
 | |2| |
 
-
-1
-A B C
-2
 Around the cell 2 , A + B + C = 2 and for the cell 1, B +C = 1 solving the two equations will
 given that A = 1 i.e there is a bomb in location A. This is implemented using sets in the code, by
 finding the intersection of neighbors which gives locations B and C between cells 1 and 2.
