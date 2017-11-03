@@ -32,9 +32,10 @@ of the neighborhood of two cells are considered and based on the difference betw
 values of the 2 cells under consideration cells are either cleared or declared as bombs
 For example:
 
-|1| | 3|
+|1| | |
 |-----|:--------:|---------:|
-|1    |TITLE	 |TEXT     |RADIO BUTTON LOOKUP:MR,MRS,MS|SELECT GENDER|
+|A   |B	 |C    |
+| |2| |
 
 
 1
