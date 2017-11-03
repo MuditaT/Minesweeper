@@ -31,9 +31,9 @@ If there aren’t any cells that can be queried directly then the locations with
 of the neighborhood of two cells are considered and based on the difference between the
 values of the 2 cells under consideration cells are either cleared or declared as bombs
 For example:
-|1| 2|3 |
-|-----|:--------:|---------:|
-|A    |B	 |C |
+|SR.NO|FIELD NAME|DATA TYPE|OTHER INFO|DESCRIPTION|
+|-----|:--------:|:-------:|:--------:|---------:|
+|1    |TITLE	 |TEXT     |RADIO BUTTON LOOKUP:MR,MRS,MS|SELECT GENDER|
 1
 A B C
 2
